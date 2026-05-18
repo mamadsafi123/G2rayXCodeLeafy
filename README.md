@@ -1,93 +1,75 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A8E55C,100:2DC94E&height=200&section=header&text=G2rayXCodeLeafy&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Xray%20Management%20Tool%20%E2%80%A2%20Codespace%20Optimized&descSize=18&descAlignY=60&descColor=efffef" alt="G2ray Panel Header" width="100%"/>
+# G2rayXCodeLeafy
 
-<br/>
+A sleek VLESS proxy manager for GitHub Codespaces.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2DC94E&center=true&vCenter=true&width=500&lines=%E2%9A%A1+G2ray+Panel;Deploy+VLESS+in+Codespaces;Manage+Configs+on+the+Fly;Auto-Keepalive+Included;Native+XHTTP+Support" alt="Typing animation" />
-
-<br/>
-
-## 🎬 Quick Start Tutorial
-
-https://github.com/user-attachments/assets/79174a4a-ef86-4c1d-9f1a-909d0b29a248
-
-
-> 💡 **New to G2ray?** Watch the 2-minute tutorial above to get started instantly!
-
-<br/>
-
-<img src="./assets/preview.png" alt="G2ray Panel Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-
-<br/>
-
-<!-- Badges -->
-<div>
-  <img src="https://img.shields.io/badge/Shell-Bash-blue?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell"/>
-  <img src="https://img.shields.io/badge/Platform-Codespaces-2DC94E?style=for-the-badge&logo=github&logoColor=white" alt="Platform"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/badge/Telegram-Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  <img src="https://img.shields.io/github/stars/Code-Leafy/G2rayXCodeLeafy?style=for-the-badge&color=yellow" alt="GitHub Stars"/>
-</div>
-
-<br/>
-
-> **🚀 A powerful, interactive Bash panel to deploy and manage VLESS XHTTP configurations.**  
-> Built specifically for GitHub Codespaces • Fully automated • Lightweight • Efficient
-
-<br/>
+[![Version](https://img.shields.io/badge/version-1.4.0-2DC94E?style=flat-square)](https://github.com/Code-Leafy/G2rayXCodeLeafy)
+[![License](https://img.shields.io/badge/license-MIT-2DC94E?style=flat-square)](https://github.com/Code-Leafy/G2rayXCodeLeafy)
+[![Status](https://img.shields.io/badge/status-stable-2DC94E?style=flat-square)]()
 
 </div>
 
 ---
-
-## 📦 Community Donated Configs (SUB)
-
-```
-https://raw.githubusercontent.com/Code-Leafy/G2rayXCodeLeafy/main/configs.txt
-```
 
 <div align="center">
 
-🙏 **Thank you to everyone who has contributed!**  
-Your donations help the community bypass restrictions with ease.
+<!-- 🎬 Quick Start Tutorial Video -->
+https://github.com/user-attachments/assets/79174a4a-ef86-4c1d-9f1a-909d0b29a248
 
-💡 **Want to help?** You can donate your config directly from the G2ray Panel CLI (Option 1) after generating it.  
-🔐 *Your privacy is fully protected!*
+<br>
+
+<!-- 📸 Panel Preview Image -->
+<img src="assets/preview.png" alt="G2ray Panel Preview" width="720" style="border-radius: 12px; border: 1px solid rgba(0,0,0,0.05);">
+
+</div>
+
+<br>
+
+## Overview
+
+G2ray is a powerful, interactive Bash panel designed to instantly deploy and manage Xray VLESS XHTTP configurations. Built specifically for the GitHub Codespaces environment, it automates port management, traffic monitoring, and connection keep-alives natively.
+
+> **Note:** The panel includes an advanced anti-sleep engine using Tmux to prevent your free-tier Codespace from hibernating while the proxy is in use.
+
+---
+
+<summary><kbd>🔗</kbd> Community Donated Configs (SUB)</summary>
+
+Want to use public nodes donated by other G2ray users? Import this subscription link directly into your V2ray/Xray client:
+
+```text
+https://raw.githubusercontent.com/Code-Leafy/G2rayXCodeLeafy/main/configs.txt
+```
+
+---
+
+### Core Features
+
+#### ⚡ One-Click Deploy & Manage
+Generate and start Xray engines in seconds. The beautiful menu-driven CLI interface makes managing nodes and viewing live config links effortless. 
+
+#### 🔄 Smart Auto-Keepalive
+Built-in background loops and advanced Tmux simulators prevent GitHub Codespaces from shutting down due to inactivity, keeping your tunnel open.
+
+#### 📡 Live Analytics & Quota
+Tracks real-time RX/TX data consumption and actively monitors resource usage (CPU/RAM). It accurately estimates your remaining 60-hour free-tier quota.
+
+#### 📦 Community Config Network
+Donate your generated config directly from the CLI to share access with the community securely, without impacting your own speed or exposing personal data.
+
+<div align="center">
+
+| 🛠️ Configuration Optimizer |
+| :--- |
+| To finalize your setup, take the config received from the panel and visit **[NetLeafy](https://code-leafy.github.io/NetLeafy)**. Set the server mode to **G2ray** and paste your link to generate a fully optimized connection. |
 
 </div>
 
 ---
 
-## ⚡ Features at a Glance
 
-| Feature | Description |
-|---------|-------------|
-| ⚡ **One-Click Deploy** | Generate & start Xray engines in seconds |
-| 🎛️ **Interactive CLI** | Beautiful menu-driven interface for node management |
-| 🔄 **Auto-Keepalive** | Smart loops prevent Codespace hibernation |
-| 📡 **Live Stats** | Real-time RX/TX traffic & resource monitoring |
-| 🌍 **Dynamic Routing** | Switch between Auto-detect, Custom IPs & CDN routes |
-| 🩺 **Self-Healing** | Auto-restart, port management & log monitoring |
-| 📋 **QR Generation** | Shareable QR codes directly in terminal |
-| 🎬 **Video Tutorial** | Built-in guidance for instant onboarding |
-
----
-
-## 📋 Requirements
-
-```bash
-✅ GitHub Account          # For Codespaces access
-✅ curl / jq              # API interaction & JSON parsing
-✅ Xray-Core              # Core engine (auto-detected)
-✅ Bash 4.0+              # Panel runtime environment
-```
-
----
-
-## 🚀 Installation & Usage
-
-### Step-by-Step Guide
+## Getting Started
 
 1. **Fork the Repository**  
    → Click **Fork** at the top-right of this page
@@ -101,92 +83,71 @@ Your donations help the community bypass restrictions with ease.
 4. **Launch Panel**  
    → The G2ray CLI panel auto-starts in the terminal!
 
-> 🎯 **First Run?** The script detects missing configs and guides you through setup automatically.
-
 <details>
-<summary>🔧 Advanced: Manual Launch</summary>
+<summary><kbd>⚙️</kbd> Environment Configuration</summary>
+
+While G2ray is designed to be zero-config, advanced users can modify specific variables within the engine script:
+
+- `XRAY_PORT` **(Optional)** — Binds Xray to a custom port. Default: `443`
+- `CODESPACE_NAME` **(Optional)** — Overrides auto-detection of the app domain.
+
+</details>
+
+---
+
+## Usage
+
+When launched, the panel provides a 1-to-13 numerical selection menu. Simply type the number corresponding to the action you want to take.
 
 ```bash
-# If panel doesn't auto-start:
+# If panel did now get shown:
 bash ./g2ray.sh
 ```
-</details>
 
 ---
 
-## 📁 Repository Structure
+## Architecture
 
+```mermaid
+graph LR
+    A[GitHub Codespace] -->|Executes| B[G2ray Bash Panel]
+    B -->|Configures| C[Xray-core]
+    C -->|Binds Port 443| D[Codespace App Domain]
+    D -->|VLESS over xHTTP| E[End User Client]
 ```
+
+<details>
+<summary><kbd>📁</kbd> Project Structure</summary>
+
+```text
 G2rayXCodeLeafy/
-├── 📄 g2ray.sh              # Main interactive panel script
-├── 📄 configs.txt           # Community donated subscription configs
-├── 📁 .devcontainer/
-├── 📁 assets/               # Media resources
-│   ├── preview.png
-│   └── video.mp4           # 🎬 Tutorial video
-├── 📄 LICENSE               # MIT License
-└── 📄 README.md             # You are here! ✨
+├── data/                    # Dynamic storage for usage stats, UUIDs, & config
+├── logs/                    # Xray engine error logs
+├── assets/                  # Media resources (previews & videos)
+├── configs.txt              # Community donated subscription configs
+└── g2ray.sh                 # The main interactive panel script
 ```
-
----
-
-## 📣 Community & Support
-
-<div align="center">
-
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Join_Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/codeleafy)
-
-💬 Get updates, tips, troubleshooting help, and connect with other users!
-
-</div>
-
----
-
-## ⚠️ Disclaimer & Legal
-
-> [!IMPORTANT]
-> **Educational Purpose Only**  
-> This project is provided for **educational and research purposes only**.  
-> 
-> - The developer does not encourage or condone bypassing network restrictions in violation of local laws.
-> - Users are **solely responsible** for compliance with all applicable regulations in their region.
-> - The developer assumes **no liability** for misuse of this tool.
-> 
-> 🌐 *Please use responsibly and ethically.*
 
 </details>
 
 ---
 
-## ⚖️ License
+<details>
+<summary><kbd>❓</kbd> FAQ & Troubleshooting</summary>
 
-```
-MIT License
+**My Codespace keeps shutting down?**
+Ensure you have activated Option `7` in the G2ray panel (Toggle Anti-Sleep Mode) to spawn a background Tmux session that simulates user activity.
 
-Copyright (c) 2026 Code-Leafy
+**Why are my speeds slow?**
+For optimal routing, always try to ensure your GitHub Codespace region is set to `Europe West` in your GitHub account settings, as this places the server in NL/DE.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+</details>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
+<br>
 
 <div align="center">
 
-### Made with ❤️ by [Code-Leafy](https://github.com/Code-Leafy)
+> **⚠️ Educational Purpose Only:** This project is provided for educational and research purposes. Users are solely responsible for compliance with all local laws. The developer assumes no liability for misuse.
 
-[![GitHub Stars](https://img.shields.io/github/stars/Code-Leafy/G2rayXCodeLeafy?style=social)](https://github.com/Code-Leafy/G2rayXCodeLeafy/stargazers)
-[![Forks](https://img.shields.io/github/forks/Code-Leafy/G2rayXCodeLeafy?style=social)](https://github.com/Code-Leafy/G2rayXCodeLeafy/network/members)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A8E55C,100:2DC94E&height=100&section=footer" width="100%" alt="Footer"/>
-
+[MIT License](https://github.com/Code-Leafy/G2rayXCodeLeafy/blob/main/LICENSE) · Crafted by [Code-Leafy](https://github.com/Code-Leafy)
 </div>

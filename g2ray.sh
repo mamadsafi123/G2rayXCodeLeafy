@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-readonly G2RAY_ID="G2ray Panel v1.4.2"
+readonly G2RAY_ID="G2ray Panel v1.4.3"
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 GREEN='\033[1;32m'; WHITE='\033[1;37m'; RED='\033[1;31m'
@@ -77,7 +77,7 @@ draw_logo() {
     echo -e "   ██║   ██║██╔═══╝ ██╔══██╗██╔══██║  ╚██╔╝  "
     echo -e "   ╚██████╔╝███████╗██║  ██║██║  ██║   ██║   "
     echo -e "    ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ${NC}"
-    echo -e "       ${WHITE}${B}v1.4.2${NC} ${DIM}•${NC} ${WHITE}Made by CodeLeafy${NC}\n"
+    echo -e "       ${WHITE}${B}v1.4.3${NC} ${DIM}•${NC} ${WHITE}Made by CodeLeafy${NC}\n"
 }
 
 refresh_screen() {

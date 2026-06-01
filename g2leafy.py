@@ -26,7 +26,7 @@ RAW_BASE = f"https://raw.githubusercontent.com/{UPSTREAM_REPO}/refs/heads/main/"
 
 DONATE_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxbTxcCS6sl7HpASqssmr6c9wYL1gsE86fBjFHTcRs0sl0o-R5ZAmKJk-z_GaBBRqcsHw/exec"
 DONATE_SECRET = ""
-DONATE_IP = "20.207.70.99"
+DONATE_IP = "20.120.56.11"
 DONATE_HEARTBEAT_SEC = 240
 DONATE_TTL_SEC = 720
 DONATE_QUOTA_GRACE_SEC = 600
